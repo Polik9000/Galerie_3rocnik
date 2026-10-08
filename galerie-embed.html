@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="cs"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fotogalerie 3. ročníku – Čtu ve městě</title>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{--lilac:#dac1ff;--pink:#fe005c;--paper:#f9f9f9;--head:"Bricolage Grotesque",Arial,sans-serif}
+*{box-sizing:border-box}html,body{margin:0;background:var(--lilac)}
+body{padding:12px}
+.grid{display:flex;flex-wrap:wrap;gap:8px}.grid::after{content:"";flex-grow:1e4}
+.tile{flex-grow:calc(var(--r)*100);flex-basis:calc(var(--r)*230px);position:relative;display:block;overflow:hidden;background:rgba(0,0,0,.08);cursor:zoom-in}
+.tile i{display:block}
+.tile img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .35s ease,filter .35s ease}
+.tile:hover img,.tile:focus-visible img{transform:scale(1.04);filter:brightness(1.05)}
+.tile:focus-visible{outline:3px solid var(--pink);outline-offset:2px}
+.lb{position:fixed;inset:0;z-index:50;background:rgba(0,0,0,.94);display:none;align-items:center;justify-content:center}
+.lb.open{display:flex}
+.lb img{max-width:94vw;max-height:84vh;object-fit:contain;user-select:none}
+.lb button{position:absolute;background:none;border:0;color:var(--paper);cursor:pointer;font-family:var(--head);padding:14px}
+.lb button:hover,.lb a:hover{color:var(--lilac)}
+.lb .x{top:4px;right:10px;font-size:34px;line-height:1}
+.lb .prev,.lb .next{top:50%;transform:translateY(-50%);font-size:44px;padding:22px 14px}
+.lb .prev{left:4px}.lb .next{right:4px}
+.lb .bar{position:absolute;bottom:12px;left:0;right:0;display:flex;justify-content:center;gap:20px;color:var(--paper);font:15px var(--head)}
+.lb .bar a{color:var(--paper)}
+@media(max-width:600px){body{padding:8px}.grid{gap:5px}.tile{flex-basis:calc(var(--r)*100px)}}
+</style></head><body>
+    <h1>Galerie fotek ze 3.ročníku festivalu Čtu ve městě</h1>
+<div class="grid" id="grid">
+<a class="tile" href="023A6039.WEB.jpg" style="--r:1.497"><i style="padding-bottom:66.786%"></i><img src="nahledy/023A6039.WEB.jpg" width="560" height="374" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (1/113)"></a>
+<a class="tile" href="023A6062.WEB.jpg" style="--r:1.522"><i style="padding-bottom:65.714%"></i><img src="nahledy/023A6062.WEB.jpg" width="560" height="368" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (2/113)"></a>
+<a class="tile" href="023A6065.WEB.jpg" style="--r:1.455"><i style="padding-bottom:68.750%"></i><img src="nahledy/023A6065.WEB.jpg" width="560" height="385" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (3/113)"></a>
+<a class="tile" href="023A6067.WEB.jpg" style="--r:1.905"><i style="padding-bottom:52.500%"></i><img src="nahledy/023A6067.WEB.jpg" width="560" height="294" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (4/113)"></a>
+<a class="tile" href="023A6091.WEB.jpg" style="--r:1.682"><i style="padding-bottom:59.464%"></i><img src="nahledy/023A6091.WEB.jpg" width="560" height="333" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (5/113)"></a>
+<a class="tile" href="023A6104.WEB.jpg" style="--r:1.261"><i style="padding-bottom:79.286%"></i><img src="nahledy/023A6104.WEB.jpg" width="560" height="444" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (6/113)"></a>
+<a class="tile" href="023A6112.WEB.jpg" style="--r:1.692"><i style="padding-bottom:59.107%"></i><img src="nahledy/023A6112.WEB.jpg" width="560" height="331" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (7/113)"></a>
+<a class="tile" href="023A6166.WEB.jpg" style="--r:1.551"><i style="padding-bottom:64.464%"></i><img src="nahledy/023A6166.WEB.jpg" width="560" height="361" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (8/113)"></a>
+<a class="tile" href="023A6214.WEB.jpg" style="--r:1.376"><i style="padding-bottom:72.679%"></i><img src="nahledy/023A6214.WEB.jpg" width="560" height="407" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (9/113)"></a>
+<a class="tile" href="023A6258.WEB.jpg" style="--r:1.860"><i style="padding-bottom:53.750%"></i><img src="nahledy/023A6258.WEB.jpg" width="560" height="301" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (10/113)"></a>
+<a class="tile" href="023A6337.WEB.jpg" style="--r:1.411"><i style="padding-bottom:70.893%"></i><img src="nahledy/023A6337.WEB.jpg" width="560" height="397" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (11/113)"></a>
+<a class="tile" href="023A6338.WEB.jpg" style="--r:1.404"><i style="padding-bottom:71.250%"></i><img src="nahledy/023A6338.WEB.jpg" width="560" height="399" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (12/113)"></a>
+<a class="tile" href="023A6351.WEB.jpg" style="--r:1.199"><i style="padding-bottom:83.393%"></i><img src="nahledy/023A6351.WEB.jpg" width="560" height="467" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (13/113)"></a>
+<a class="tile" href="023A6397.WEB.jpg" style="--r:1.411"><i style="padding-bottom:70.893%"></i><img src="nahledy/023A6397.WEB.jpg" width="560" height="397" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (14/113)"></a>
+<a class="tile" href="023A6401.WEB.jpg" style="--r:1.393"><i style="padding-bottom:71.786%"></i><img src="nahledy/023A6401.WEB.jpg" width="560" height="402" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (15/113)"></a>
+<a class="tile" href="023A6429.WEB.jpg" style="--r:1.379"><i style="padding-bottom:72.500%"></i><img src="nahledy/023A6429.WEB.jpg" width="560" height="406" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (16/113)"></a>
+<a class="tile" href="023A6446.WEB.jpg" style="--r:1.824"><i style="padding-bottom:54.821%"></i><img src="nahledy/023A6446.WEB.jpg" width="560" height="307" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (17/113)"></a>
+<a class="tile" href="023A6482.WEB.jpg" style="--r:1.509"><i style="padding-bottom:66.250%"></i><img src="nahledy/023A6482.WEB.jpg" width="560" height="371" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (18/113)"></a>
+<a class="tile" href="023A6492.WEB.jpg" style="--r:1.390"><i style="padding-bottom:71.964%"></i><img src="nahledy/023A6492.WEB.jpg" width="560" height="403" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (19/113)"></a>
+<a class="tile" href="023A6498.WEB.jpg" style="--r:1.628"><i style="padding-bottom:61.429%"></i><img src="nahledy/023A6498.WEB.jpg" width="560" height="344" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (20/113)"></a>
+<a class="tile" href="023A6505.WEB.jpg" style="--r:1.873"><i style="padding-bottom:53.393%"></i><img src="nahledy/023A6505.WEB.jpg" width="560" height="299" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (21/113)"></a>
+<a class="tile" href="023A6512.WEB.jpg" style="--r:1.609"><i style="padding-bottom:62.143%"></i><img src="nahledy/023A6512.WEB.jpg" width="560" height="348" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (22/113)"></a>
+<a class="tile" href="023A6544.WEB.jpg" style="--r:1.505"><i style="padding-bottom:66.429%"></i><img src="nahledy/023A6544.WEB.jpg" width="560" height="372" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (23/113)"></a>
+<a class="tile" href="023A6568.WEB.jpg" style="--r:1.682"><i style="padding-bottom:59.464%"></i><img src="nahledy/023A6568.WEB.jpg" width="560" height="333" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (24/113)"></a>
+<a class="tile" href="023A6578.WEB.jpg" style="--r:1.458"><i style="padding-bottom:68.571%"></i><img src="nahledy/023A6578.WEB.jpg" width="560" height="384" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (25/113)"></a>
+<a class="tile" href="023A6586.WEB.jpg" style="--r:1.369"><i style="padding-bottom:73.036%"></i><img src="nahledy/023A6586.WEB.jpg" width="560" height="409" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (26/113)"></a>
+<a class="tile" href="023A6592.WEB.jpg" style="--r:1.564"><i style="padding-bottom:63.929%"></i><img src="nahledy/023A6592.WEB.jpg" width="560" height="358" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (27/113)"></a>
+<a class="tile" href="023A6620.WEB.jpg" style="--r:1.458"><i style="padding-bottom:68.571%"></i><img src="nahledy/023A6620.WEB.jpg" width="560" height="384" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (28/113)"></a>
+<a class="tile" href="023A6641.WEB.jpg" style="--r:1.390"><i style="padding-bottom:71.964%"></i><img src="nahledy/023A6641.WEB.jpg" width="560" height="403" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (29/113)"></a>
+<a class="tile" href="023A6665.WEB.jpg" style="--r:1.600"><i style="padding-bottom:62.500%"></i><img src="nahledy/023A6665.WEB.jpg" width="560" height="350" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (30/113)"></a>
+<a class="tile" href="023A6667.WEB.jpg" style="--r:1.443"><i style="padding-bottom:69.286%"></i><img src="nahledy/023A6667.WEB.jpg" width="560" height="388" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (31/113)"></a>
+<a class="tile" href="023A6708.WEB.jpg" style="--r:1.501"><i style="padding-bottom:66.607%"></i><img src="nahledy/023A6708.WEB.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (32/113)"></a>
+<a class="tile" href="023A6728.WEB.jpg" style="--r:1.376"><i style="padding-bottom:72.679%"></i><img src="nahledy/023A6728.WEB.jpg" width="560" height="407" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (33/113)"></a>
+<a class="tile" href="023A6739.WEB.jpg" style="--r:1.755"><i style="padding-bottom:56.964%"></i><img src="nahledy/023A6739.WEB.jpg" width="560" height="319" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (34/113)"></a>
+<a class="tile" href="023A6758.WEB.jpg" style="--r:1.618"><i style="padding-bottom:61.786%"></i><img src="nahledy/023A6758.WEB.jpg" width="560" height="346" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (35/113)"></a>
+<a class="tile" href="023A6800.WEB.jpg" style="--r:1.677"><i style="padding-bottom:59.643%"></i><img src="nahledy/023A6800.WEB.jpg" width="560" height="334" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (36/113)"></a>
+<a class="tile" href="023A6800.WEB_1.jpg" style="--r:1.677"><i style="padding-bottom:59.643%"></i><img src="nahledy/023A6800.WEB_1.jpg" width="560" height="334" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (37/113)"></a>
+<a class="tile" href="023A6822.WEB.jpg" style="--r:0.688"><i style="padding-bottom:145.455%"></i><img src="nahledy/023A6822.WEB.jpg" width="385" height="560" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (38/113)"></a>
+<a class="tile" href="023A6830.WEB.jpg" style="--r:1.447"><i style="padding-bottom:69.107%"></i><img src="nahledy/023A6830.WEB.jpg" width="560" height="387" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (39/113)"></a>
+<a class="tile" href="023A6834.WEB.jpg" style="--r:1.474"><i style="padding-bottom:67.857%"></i><img src="nahledy/023A6834.WEB.jpg" width="560" height="380" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (40/113)"></a>
+<a class="tile" href="023A6849.WEB.jpg" style="--r:1.485"><i style="padding-bottom:67.321%"></i><img src="nahledy/023A6849.WEB.jpg" width="560" height="377" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (41/113)"></a>
+<a class="tile" href="023A6851.WEB.jpg" style="--r:1.556"><i style="padding-bottom:64.286%"></i><img src="nahledy/023A6851.WEB.jpg" width="560" height="360" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (42/113)"></a>
+<a class="tile" href="023A6854.WEB.jpg" style="--r:1.340"><i style="padding-bottom:74.643%"></i><img src="nahledy/023A6854.WEB.jpg" width="560" height="418" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (43/113)"></a>
+<a class="tile" href="023A6860.WEB_1.jpg" style="--r:1.349"><i style="padding-bottom:74.107%"></i><img src="nahledy/023A6860.WEB_1.jpg" width="560" height="415" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (44/113)"></a>
+<a class="tile" href="023A6895.WEB.jpg" style="--r:0.637"><i style="padding-bottom:156.863%"></i><img src="nahledy/023A6895.WEB.jpg" width="357" height="560" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (45/113)"></a>
+<a class="tile" href="023A6928.WEB_1.jpg" style="--r:1.573"><i style="padding-bottom:63.571%"></i><img src="nahledy/023A6928.WEB_1.jpg" width="560" height="356" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (46/113)"></a>
+<a class="tile" href="023A6995.WEB_1.jpg" style="--r:1.618"><i style="padding-bottom:61.786%"></i><img src="nahledy/023A6995.WEB_1.jpg" width="560" height="346" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (47/113)"></a>
+<a class="tile" href="023A7002.WEB_2.jpg" style="--r:1.682"><i style="padding-bottom:59.464%"></i><img src="nahledy/023A7002.WEB_2.jpg" width="560" height="333" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (48/113)"></a>
+<a class="tile" href="023A7043.WEB.jpg" style="--r:1.228"><i style="padding-bottom:81.429%"></i><img src="nahledy/023A7043.WEB.jpg" width="560" height="456" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (49/113)"></a>
+<a class="tile" href="023A7048.WEB.jpg" style="--r:1.761"><i style="padding-bottom:56.786%"></i><img src="nahledy/023A7048.WEB.jpg" width="560" height="318" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (50/113)"></a>
+<a class="tile" href="023A7060.WEB.jpg" style="--r:1.547"><i style="padding-bottom:64.643%"></i><img src="nahledy/023A7060.WEB.jpg" width="560" height="362" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (51/113)"></a>
+<a class="tile" href="023A7085.WEB.jpg" style="--r:1.522"><i style="padding-bottom:65.714%"></i><img src="nahledy/023A7085.WEB.jpg" width="560" height="368" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (52/113)"></a>
+<a class="tile" href="023A7094.WEB.jpg" style="--r:1.253"><i style="padding-bottom:79.821%"></i><img src="nahledy/023A7094.WEB.jpg" width="560" height="447" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (53/113)"></a>
+<a class="tile" href="023A7219.WEB.jpg" style="--r:1.538"><i style="padding-bottom:65.000%"></i><img src="nahledy/023A7219.WEB.jpg" width="560" height="364" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (54/113)"></a>
+<a class="tile" href="023A7229.WEB.jpg" style="--r:1.451"><i style="padding-bottom:68.929%"></i><img src="nahledy/023A7229.WEB.jpg" width="560" height="386" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (55/113)"></a>
+<a class="tile" href="0A8A2085.WEB.jpg" style="--r:1.501"><i style="padding-bottom:66.607%"></i><img src="nahledy/0A8A2085.WEB.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (56/113)"></a>
+<a class="tile" href="0A8A2103.WEB.jpg" style="--r:0.666"><i style="padding-bottom:150.134%"></i><img src="nahledy/0A8A2103.WEB.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (57/113)"></a>
+<a class="tile" href="0A8A2116.WEB.jpg" style="--r:1.501"><i style="padding-bottom:66.607%"></i><img src="nahledy/0A8A2116.WEB.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (58/113)"></a>
+<a class="tile" href="0A8A2147.WEB.jpg" style="--r:0.666"><i style="padding-bottom:150.134%"></i><img src="nahledy/0A8A2147.WEB.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (59/113)"></a>
+<a class="tile" href="0A8A2150.WEB.jpg" style="--r:0.666"><i style="padding-bottom:150.134%"></i><img src="nahledy/0A8A2150.WEB.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (60/113)"></a>
+<a class="tile" href="0A8A2178.WEB.jpg" style="--r:0.773"><i style="padding-bottom:129.330%"></i><img src="nahledy/0A8A2178.WEB.jpg" width="433" height="560" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (61/113)"></a>
+<a class="tile" href="0A8A2229.WEB.jpg" style="--r:1.065"><i style="padding-bottom:93.929%"></i><img src="nahledy/0A8A2229.WEB.jpg" width="560" height="526" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (62/113)"></a>
+<a class="tile" href="0A8A2234.WEB.jpg" style="--r:0.609"><i style="padding-bottom:164.223%"></i><img src="nahledy/0A8A2234.WEB.jpg" width="341" height="560" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (63/113)"></a>
+<a class="tile" href="0A8A2276.WEB.jpg" style="--r:1.493"><i style="padding-bottom:66.964%"></i><img src="nahledy/0A8A2276.WEB.jpg" width="560" height="375" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (64/113)"></a>
+<a class="tile" href="0A8A2276.WEB_1.jpg" style="--r:1.478"><i style="padding-bottom:67.679%"></i><img src="nahledy/0A8A2276.WEB_1.jpg" width="560" height="379" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (65/113)"></a>
+<a class="tile" href="0A8A2306.WEB.jpg" style="--r:0.750"><i style="padding-bottom:133.333%"></i><img src="nahledy/0A8A2306.WEB.jpg" width="420" height="560" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (66/113)"></a>
+<a class="tile" href="0A8A2316.WEB.jpg" style="--r:1.440"><i style="padding-bottom:69.464%"></i><img src="nahledy/0A8A2316.WEB.jpg" width="560" height="389" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (67/113)"></a>
+<a class="tile" href="0A8A2330.WEB.jpg" style="--r:2.137"><i style="padding-bottom:46.786%"></i><img src="nahledy/0A8A2330.WEB.jpg" width="560" height="262" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (68/113)"></a>
+<a class="tile" href="0A8A2342.WEB.jpg" style="--r:1.564"><i style="padding-bottom:63.929%"></i><img src="nahledy/0A8A2342.WEB.jpg" width="560" height="358" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (69/113)"></a>
+<a class="tile" href="0A8A2357.WEB.jpg" style="--r:1.340"><i style="padding-bottom:74.643%"></i><img src="nahledy/0A8A2357.WEB.jpg" width="560" height="418" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (70/113)"></a>
+<a class="tile" href="0A8A2362.WEB.jpg" style="--r:1.501"><i style="padding-bottom:66.607%"></i><img src="nahledy/0A8A2362.WEB.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (71/113)"></a>
+<a class="tile" href="0A8A2363.WEB.jpg" style="--r:0.714"><i style="padding-bottom:140.000%"></i><img src="nahledy/0A8A2363.WEB.jpg" width="400" height="560" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (72/113)"></a>
+<a class="tile" href="0A8A2383.WEB.jpg" style="--r:1.501"><i style="padding-bottom:66.607%"></i><img src="nahledy/0A8A2383.WEB.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (73/113)"></a>
+<a class="tile" href="0A8A2404.WEB.jpg" style="--r:1.333"><i style="padding-bottom:75.000%"></i><img src="nahledy/0A8A2404.WEB.jpg" width="560" height="420" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (74/113)"></a>
+<a class="tile" href="0A8A2427.WEB.jpg" style="--r:0.750"><i style="padding-bottom:133.333%"></i><img src="nahledy/0A8A2427.WEB.jpg" width="420" height="560" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (75/113)"></a>
+<a class="tile" href="0A8A2434.WEB.jpg" style="--r:1.470"><i style="padding-bottom:68.036%"></i><img src="nahledy/0A8A2434.WEB.jpg" width="560" height="381" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (76/113)"></a>
+<a class="tile" href="0A8A2470.WEB.jpg" style="--r:0.721"><i style="padding-bottom:138.614%"></i><img src="nahledy/0A8A2470.WEB.jpg" width="404" height="560" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (77/113)"></a>
+<a class="tile" href="0A8A2488.WEB.jpg" style="--r:1.522"><i style="padding-bottom:65.714%"></i><img src="nahledy/0A8A2488.WEB.jpg" width="560" height="368" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (78/113)"></a>
+<a class="tile" href="0A8A2575.WEB.jpg" style="--r:1.518"><i style="padding-bottom:65.893%"></i><img src="nahledy/0A8A2575.WEB.jpg" width="560" height="369" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (79/113)"></a>
+<a class="tile" href="0A8A2632.WEB.jpg" style="--r:0.800"><i style="padding-bottom:125.000%"></i><img src="nahledy/0A8A2632.WEB.jpg" width="448" height="560" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (80/113)"></a>
+<a class="tile" href="0A8A2642.WEB.jpg" style="--r:1.470"><i style="padding-bottom:68.036%"></i><img src="nahledy/0A8A2642.WEB.jpg" width="560" height="381" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (81/113)"></a>
+<a class="tile" href="0A8A2658.WEB.jpg" style="--r:0.754"><i style="padding-bottom:132.701%"></i><img src="nahledy/0A8A2658.WEB.jpg" width="422" height="560" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (82/113)"></a>
+<a class="tile" href="0A8A2666.WEB_1.jpg" style="--r:0.680"><i style="padding-bottom:146.982%"></i><img src="nahledy/0A8A2666.WEB_1.jpg" width="381" height="560" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (83/113)"></a>
+<a class="tile" href="0A8A2676.WEB.jpg" style="--r:0.670"><i style="padding-bottom:149.333%"></i><img src="nahledy/0A8A2676.WEB.jpg" width="375" height="560" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (84/113)"></a>
+<a class="tile" href="0A8A2683.WEB.jpg" style="--r:0.666"><i style="padding-bottom:150.134%"></i><img src="nahledy/0A8A2683.WEB.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (85/113)"></a>
+<a class="tile" href="0A8A2693.WEB.jpg" style="--r:1.293"><i style="padding-bottom:77.321%"></i><img src="nahledy/0A8A2693.WEB.jpg" width="560" height="433" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (86/113)"></a>
+<a class="tile" href="0A8A2693.WEB_2.jpg" style="--r:1.697"><i style="padding-bottom:58.929%"></i><img src="nahledy/0A8A2693.WEB_2.jpg" width="560" height="330" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (87/113)"></a>
+<a class="tile" href="0A8A2702.WEB.jpg" style="--r:1.376"><i style="padding-bottom:72.679%"></i><img src="nahledy/0A8A2702.WEB.jpg" width="560" height="407" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (88/113)"></a>
+<a class="tile" href="0A8A2742.WEB.jpg" style="--r:1.451"><i style="padding-bottom:68.929%"></i><img src="nahledy/0A8A2742.WEB.jpg" width="560" height="386" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (89/113)"></a>
+<a class="tile" href="0A8A2753.WEB.jpg" style="--r:0.695"><i style="padding-bottom:143.959%"></i><img src="nahledy/0A8A2753.WEB.jpg" width="389" height="560" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (90/113)"></a>
+<a class="tile" href="0A8A2754.WEB.jpg" style="--r:0.691"><i style="padding-bottom:144.703%"></i><img src="nahledy/0A8A2754.WEB.jpg" width="387" height="560" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (91/113)"></a>
+<a class="tile" href="0A8A2769.WEB.jpg" style="--r:0.666"><i style="padding-bottom:150.134%"></i><img src="nahledy/0A8A2769.WEB.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (92/113)"></a>
+<a class="tile" href="0A8A2771.WEB.jpg" style="--r:0.677"><i style="padding-bottom:147.757%"></i><img src="nahledy/0A8A2771.WEB.jpg" width="379" height="560" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (93/113)"></a>
+<a class="tile" href="0A8A2777.WEB.jpg" style="--r:1.501"><i style="padding-bottom:66.607%"></i><img src="nahledy/0A8A2777.WEB.jpg" width="560" height="373" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (94/113)"></a>
+<a class="tile" href="0A8A2789.WEB.jpg" style="--r:1.538"><i style="padding-bottom:65.000%"></i><img src="nahledy/0A8A2789.WEB.jpg" width="560" height="364" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (95/113)"></a>
+<a class="tile" href="0A8A2794.WEB.jpg" style="--r:0.666"><i style="padding-bottom:150.134%"></i><img src="nahledy/0A8A2794.WEB.jpg" width="373" height="560" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (96/113)"></a>
+<a class="tile" href="0A8A2812.WEB.jpg" style="--r:0.680"><i style="padding-bottom:146.982%"></i><img src="nahledy/0A8A2812.WEB.jpg" width="381" height="560" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (97/113)"></a>
+<a class="tile" href="0A8A2814.WEB.jpg" style="--r:0.736"><i style="padding-bottom:135.922%"></i><img src="nahledy/0A8A2814.WEB.jpg" width="412" height="560" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (98/113)"></a>
+<a class="tile" href="IMG_7606.WEB.jpg" style="--r:1.418"><i style="padding-bottom:70.536%"></i><img src="nahledy/IMG_7606.WEB.jpg" width="560" height="395" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (99/113)"></a>
+<a class="tile" href="IMG_7613.WEB.jpg" style="--r:1.824"><i style="padding-bottom:54.821%"></i><img src="nahledy/IMG_7613.WEB.jpg" width="560" height="307" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (100/113)"></a>
+<a class="tile" href="IMG_7617.WEB_5.jpg" style="--r:1.595"><i style="padding-bottom:62.679%"></i><img src="nahledy/IMG_7617.WEB_5.jpg" width="560" height="351" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (101/113)"></a>
+<a class="tile" href="IMG_7617.WEB_7.jpg" style="--r:1.595"><i style="padding-bottom:62.679%"></i><img src="nahledy/IMG_7617.WEB_7.jpg" width="560" height="351" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (102/113)"></a>
+<a class="tile" href="IMG_7622.WEB.jpg" style="--r:1.489"><i style="padding-bottom:67.143%"></i><img src="nahledy/IMG_7622.WEB.jpg" width="560" height="376" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (103/113)"></a>
+<a class="tile" href="IMG_7627.WEB.jpg" style="--r:1.429"><i style="padding-bottom:70.000%"></i><img src="nahledy/IMG_7627.WEB.jpg" width="560" height="392" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (104/113)"></a>
+<a class="tile" href="IMG_7631.WEB.jpg" style="--r:1.573"><i style="padding-bottom:63.571%"></i><img src="nahledy/IMG_7631.WEB.jpg" width="560" height="356" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (105/113)"></a>
+<a class="tile" href="IMG_7647.WEB.jpg" style="--r:1.543"><i style="padding-bottom:64.821%"></i><img src="nahledy/IMG_7647.WEB.jpg" width="560" height="363" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (106/113)"></a>
+<a class="tile" href="IMG_7694.WEB.jpg" style="--r:1.493"><i style="padding-bottom:66.964%"></i><img src="nahledy/IMG_7694.WEB.jpg" width="560" height="375" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (107/113)"></a>
+<a class="tile" href="IMG_7694.WEB_1.jpg" style="--r:1.493"><i style="padding-bottom:66.964%"></i><img src="nahledy/IMG_7694.WEB_1.jpg" width="560" height="375" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (108/113)"></a>
+<a class="tile" href="IMG_7707.WEB.jpg" style="--r:1.485"><i style="padding-bottom:67.321%"></i><img src="nahledy/IMG_7707.WEB.jpg" width="560" height="377" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (109/113)"></a>
+<a class="tile" href="IMG_7751.WEB.jpg" style="--r:1.772"><i style="padding-bottom:56.429%"></i><img src="nahledy/IMG_7751.WEB.jpg" width="560" height="316" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (110/113)"></a>
+<a class="tile" href="IMG_7775.WEB.jpg" style="--r:1.505"><i style="padding-bottom:66.429%"></i><img src="nahledy/IMG_7775.WEB.jpg" width="560" height="372" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (111/113)"></a>
+<a class="tile" href="IMG_7784.WEB.jpg" style="--r:0.943"><i style="padding-bottom:106.061%"></i><img src="nahledy/IMG_7784.WEB.jpg" width="528" height="560" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (112/113)"></a>
+<a class="tile" href="IMG_7805.WEB.jpg" style="--r:1.795"><i style="padding-bottom:55.714%"></i><img src="nahledy/IMG_7805.WEB.jpg" width="560" height="312" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (113/113)"></a>
+</div>
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Zvětšená fotografie">
+<button class="x" aria-label="Zavřít">×</button><button class="prev" aria-label="Předchozí">‹</button>
+<img id="img" alt=""><button class="next" aria-label="Další">›</button>
+<div class="bar"><span id="cnt"></span><a id="dl" download target="_blank" rel="noopener">Stáhnout</a></div></div>
+<script>
+(function(){
+var t=[].slice.call(document.querySelectorAll('#grid .tile')),lb=document.getElementById('lb'),im=document.getElementById('img'),
+cnt=document.getElementById('cnt'),dl=document.getElementById('dl'),c=0,last=null;
+function show(i){c=(i+t.length)%t.length;var a=t[c];im.src=a.getAttribute('href');im.alt=a.querySelector('img').alt;
+dl.href=a.getAttribute('href');cnt.textContent=(c+1)+' / '+t.length;new Image().src=t[(c+1)%t.length].getAttribute('href');}
+function open(i){last=document.activeElement;show(i);lb.classList.add('open');lb.querySelector('.x').focus();}
+function close(){lb.classList.remove('open');im.removeAttribute('src');if(last)last.focus();}
+t.forEach(function(a,i){a.addEventListener('click',function(e){e.preventDefault();open(i);});});
+lb.querySelector('.x').onclick=close;lb.querySelector('.prev').onclick=function(){show(c-1)};lb.querySelector('.next').onclick=function(){show(c+1)};
+lb.addEventListener('click',function(e){if(e.target===lb)close();});
+document.addEventListener('keydown',function(e){if(!lb.classList.contains('open'))return;
+if(e.key==='Escape')close();else if(e.key==='ArrowLeft')show(c-1);else if(e.key==='ArrowRight')show(c+1);});
+var x0=null;lb.addEventListener('touchstart',function(e){x0=e.touches[0].clientX},{passive:true});
+lb.addEventListener('touchend',function(e){if(x0===null)return;var d=e.changedTouches[0].clientX-x0;x0=null;if(Math.abs(d)>50)show(c+(d<0?1:-1));});
+})();
+</script></body></html>
