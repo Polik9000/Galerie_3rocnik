@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="cs"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Fotogalerie 3. ročníku – Čtu ve městě</title>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;700&family=Merriweather:wght@300;400&display=swap" rel="stylesheet">
 <style>
 :root{--lilac:#dac1ff;--pink:#fe005c;--paper:#f9f9f9;--head:"Bricolage Grotesque",Arial,sans-serif}
 *{box-sizing:border-box}html,body{margin:0;background:var(--lilac)}
@@ -23,8 +23,12 @@ body{padding:12px}
 .lb .bar{position:absolute;bottom:12px;left:0;right:0;display:flex;justify-content:center;gap:20px;color:var(--paper);font:15px var(--head)}
 .lb .bar a{color:var(--paper)}
 @media(max-width:600px){body{padding:8px}.grid{gap:5px}.tile{flex-basis:calc(var(--r)*100px)}}
+h1{font:700 clamp(24px,3.2vw,34px)/1.2 var(--head);color:#1c1c1c;text-align:center;margin:8px auto 22px;max-width:900px}
+.note{font:300 15px/1.6 Merriweather,Georgia,serif;color:#1c1c1c;text-align:center;max-width:640px;margin:30px auto 14px}
+.note a{color:inherit;font-weight:400;text-underline-offset:3px}
+.note a:hover{color:var(--pink)}
 </style></head><body>
-    <h1>Galerie fotek ze 3.ročníku festivalu Čtu ve městě</h1>
+    <h1>Galerie fotek ze 3. ročníku festivalu Čtu ve městě</h1>
 <div class="grid" id="grid">
 <a class="tile" href="023A6039.WEB.jpg" style="--r:1.497"><i style="padding-bottom:66.786%"></i><img src="nahledy/023A6039.WEB.jpg" width="560" height="374" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (1/105)"></a>
 <a class="tile" href="023A6062.WEB.jpg" style="--r:1.522"><i style="padding-bottom:65.714%"></i><img src="nahledy/023A6062.WEB.jpg" width="560" height="368" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (2/105)"></a>
@@ -132,6 +136,7 @@ body{padding:12px}
 <a class="tile" href="IMG_7784.WEB.jpg" style="--r:0.943"><i style="padding-bottom:106.061%"></i><img src="nahledy/IMG_7784.WEB.jpg" width="528" height="560" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (104/105)"></a>
 <a class="tile" href="IMG_7805.WEB.jpg" style="--r:1.795"><i style="padding-bottom:55.714%"></i><img src="nahledy/IMG_7805.WEB.jpg" width="560" height="312" loading="lazy" decoding="async" alt="Fotografie z 3. ročníku festivalu (105/105)"></a>
 </div>
+<p class="note">Vadí vám, že jsou vaše fotky veřejně dostupné? Napište nám na <a href="mailto:ctuvemeste.cz@gmail.com">ctuvemeste.cz@gmail.com</a> s žádostí o vymazání a my je odstraníme 💜🖤</p>
 <div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Zvětšená fotografie">
 <button class="x" aria-label="Zavřít">×</button><button class="prev" aria-label="Předchozí">‹</button>
 <img id="img" alt=""><button class="next" aria-label="Další">›</button>
